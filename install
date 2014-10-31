@@ -9,9 +9,9 @@ INST_PATH=/usr/share/emonhub
 ### clone emonhub
 git clone https://github.com/emonhub/emonhub.git $GIT_PATH
 
-### switch to development branch
+### switch to testing branch
 cd $GIT_PATH
-git checkout development
+git checkout testing
 cd $OLDPWD
 
 ### create linked directory for emonhub.py etc
